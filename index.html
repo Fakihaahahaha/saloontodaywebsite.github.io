@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>salontoday</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x, .75rem);
+      padding-left: var(--bs-gutter-x, .75rem);
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .mybtnn{
+    border: 2px solid #ff00aa;
+      transition-delay: 0s;
+      background-color: #ff00aa;
+      color: white;
+      font-size: 16px;
+      padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+ 
+
+  }
+.mybtnn:hover{
+  background-color: #ff00aa;
+      transition-delay: 0s;
+
+}
+.mynav a:hover{
+  color: #ff00aa;
+
+
+      color: white;
+      text-decoration: none;
+      border: none;
+}
+.swap a{
+  color: white;
+     
+}
+
+  .mybtn {
+      border: 2px solid #ff00aa;
+      transition-delay: 0s;
+      background-color: white;
+      padding: 6px 30px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+
+  }
+  
+  .mybtn:hover {
+      background-color: #ff00aa;
+      transition-delay: 0s;
+
+  }
+ 
+
+  .myownnav a:hover {
+      color: #ff00aa;
+      color: white;
+      text-decoration: none;
+      border: none;
+  }
+
+  .swapp a {
+      color: #ff00aa;
+      font-size: 20px;
+  }
+  .nav-link.hover{
+      color: #ff00aa;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: #ff00aa;
+    
+      
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px; /* change width */
+    height: 12px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    
+    cursor: pointer;
+    background-color:palevioletred;
+    background-clip: padding-box;
+    border: 0;
+   
+    transition: opacity .6s ease;
+    border-radius: 100%; 
+}
+.paragraph{
+    margin-left: 13%;
+   margin-right: 13%;
+    height: 150%;
+    width: 70%;
+    
+}
+.button{
+  border: 2px solid white;
+  margin-right: 20%;
+  padding: 7px 7px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
+width: 100%;
+
+
+
+}
+.button:hover{
+  background-color:black; 
+}
+.telephoneicon{
+  border: 2px solid white;
+  margin-right: 20%;
+  padding: 7px 7px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  margin-right: 200px;
+
+}
+.telephoneicon:hover{
+  background-color:black; 
+}
+.black-color{
+  color: black;
+}
+.black-color:hover{
+  color: white;
+}
+
+
+
+
+
+</style>
+<body>
+<div class="container-fluid">
+  <section id="services" class="services1 py-1 bg-light">
+  <div class="container-fluid d-flex justify-content-center justify-content-md-end " style="height:40px">
+    <div class="d-flex align-items-center">
+      <button type="button" class="btn  button swap  btn-outline-secondary">
+       
+        <a href="mailto:info@salontoday.pk" class="bi bi-envelope-fill ">
+          <i class='fa fa-envelope black-color'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-envelope-fill " viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+
+</svg></i>
+</a>
+
+
+<span class="visually-hidden ">Button</span>
+                </button>
+                <button type="button" class="btn swap telephoneicon btn-outline-secondary">             
+<a href="tel:+92 51 8481658" class="bi bi-telephone-fill">
+  <span class="bi bi-telephone black-color"> 
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+  </svg></span>
+</a>
+                  <span class="visually-hidden">Button</span>
+                 
+                </button>
+    </div>
+  </div>
+</section>
+</div>
+    
+
+
+<div class="row ">
+            
+
+
+      <div class="col-sm-12 col-md-12 p-2 mx-5">
+          <nav class="navbar navbar-expand-lg navbar-light text-center myownnav">
+              <a href="http://salontoday.pk/ " class="navbar-brand text-success">
+                  <image src="http://www.salontoday.pk/site3_assets/img/Salontoday.png"></image>
+              </a>
+              <div class="collapse navbar-collapse justify content" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link p-3 " href="#services">SERVICES</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link p-3" href="#features">FEATURES</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link p-3" href="#about">ABOUT US</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link p-3" href="#howitwork">HOW IT WORKS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link p-3" href="#download"> DOWNLOADS</a>
+                      </li>
+                     
+                      <li class="nav-item swapp p-3 mx-5  ">
+                          <button type="button" class="btn btn-light mybtn  "><a class="  linker text-decoration-none"  href="http://www.salontoday.pk/#contact">Contact Us</a></button>
+
+                      </li>
+
+
+                  </ul>
+              </div>
+
+          </nav>
+
+
+      </div>
+ 
+
+  </div>
+
+     <div class="row ">
+            <div class="col-xs-12 col-md-12" style="background-color:rgb(19, 2, 27);">
+         
+            <div id="hero" class="carousel slide" data-bs-ride="carousel">
+
+           
+            <div class="carousel-indicators ">
+            <button type="button" data-bs-target="hero" data-bs-slide-to="0" class="active solo"></button>
+            <button type="button" data-bs-target="hero" data-bs-slide-to="1"></button>
+           
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <img height="450" width="100%" style="background-image: url(http://www.salontoday.pk/site3_assets/img/15622439.gif); background-size: cover;" class="d-block w-100" >
+               <div class="carousel-caption">
+                <label class="animate__animated animate__fadeInUp mb-0 bg-light text-dark"><span class="mx-2">Pakistan
+                  Best Online Salon Booking</span></label>
+                <h1>Welcome To Salon Today</h1>
+                <p>making your life beautiful</p>
+                <button type="button " class="btn btn-light btn-lg mynav mybtnn text-white swap"><a class="linker text-decoration-none" href="#about">Read More</a></button>
+<button type="button" class="btn btn-light mybtnn btn-lg mynav text-white swap"><a class="linker text-decoration-none" href="#contact " >Contact Us</a></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img  height="450"   style="background-image: url(http://www.salontoday.pk/site3_assets/img/slider2.png);"  class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <label class="animate__animated animate__fadeInUp mb-0 bg-light text-dark"><span class="mx-2">Pakistan
+                  Best Online Salon Booking</span></label>
+                <h1>Welcome To Salon Today</h1>
+                <p>making your life beautiful</p>
+                <button type="button " class="btn btn-light btn-lg mynav mybtnn text-light swap text-white"><a class="linker text-decoration-none" href="#about">Read More</a></button>
+<button type="button" class="btn btn-light mybtnn btn-lg mynav swap text-white"><a class="linker text-decoration-none" href="#contact " >Contact Us</a></button>
+              </div> 
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="hero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span></button>
+         <button class="carousel-control-next" type="button" data-bs-target="hero" data-bs-slide="next">
+               <span class="carousel-control-next-icon"></span> </button>
+        </div>
+     </div>
+     </div>
+     <h1 class="mb-3 cen text-center pt-5 pb-5">About Us</h1>
+     <div class="paragraph">
+     <p class="text-center pt-3 pb-5 mx-15 mb-5  ">
+       Travelling all the way from home and getting your appointment book is a 90’s thing now!! It’s truly a
+        revolution for your beauty needs.
+        Time has changed and we know how precious it is for you that is why SalonToday allows you to pamper yourself
+        with our full range of on-demand Home Salon Services for Women.
+        Salon Today’s highly trained beauticians create a salon-like ambiance at home without taking any extra
+        travel charges and provide you services at the comfort of your home.
+ 
+      </p>
+    </div>
+      <section id="services" class="services1 py-5 bg-light">
+        <h2 class="text-center pb-4">SERVICES</h2>
+        <div class="container pb-5">
+          <div class="row justify-content-md-center">
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/massage.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Women Massage</figcaption>
+                  <p>Relax those nerves with a SalonToday massage. All our masseuses come equipped with a massage table!
+                  </p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/makeup-service.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Makeup</figcaption>
+                  <p>Flawless makeup to make you look and feel your best. We bring everything you need!</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/AU1_111.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Waxing</figcaption>
+                  <p>Hassle and pain free wax for quick hair removal based on your skin type. Choose from Sugar or Fruit.
+                  </p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/AU1_222.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Hair Style</figcaption>
+                  <p>From bouncy blowdry to festival braiding, we can solve your daily hair needs.</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/Facial.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Facial</figcaption>
+                  <p>Indulge in a luxury facial delivered to your home. Choose from a range of facials.</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/mani-pedi-service1.jpg" alt="">
+                <div class="figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2 fw-bolder">Nails</figcaption>
+                  <p>We offer a full mani pedi service, with file, shape. cuticle work, hand and foot scrub and massage.
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="services1 py-5 bg-light">
+        <h2 class="text-center pb-4">FEATURES</h2>
+        <div class="container pb-5">
+          <div class="row justify-content-md-center">
+            <div class="col-xl-3 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/bg2.jpg" alt="">
+                <div class="feature-figure-card position-relative py-3 px-3">
+                  <figcaption class="text-center pb-2">SALONS &amp; SPAS</figcaption>
+                  <p>Wide range of salons &amp; spas</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-3 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/bg2.jpg" alt="">
+                <div class="feature-figure-card position-relative py-3 px-3">
+                  <figcaption class="text-center pb-2">24/7 BOOKINGS</figcaption>
+                  <p>hassle free 24/7 bookings</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-3 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/bg2.jpg" alt="">
+                <div class="feature-figure-card position-relative py-3 px-4">
+                  <figcaption class="text-center pb-2">DEALS &amp; OFFERS</figcaption>
+                  <p>exclusive deals &amp; offers</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-xl-3 col-md-6 text-center px-4">
+              <figure class="figure text-center">
+                <img class="img-fluid border border-white border-3 wp-post-image w-100" style="max-height: 275px;" src="http://www.salontoday.pk/site3_assets/img/bg2.jpg" alt="">
+                <div class="feature-figure-card position-relative py-3 px-3">
+                  <figcaption class="text-center pb-2">RATINGS &amp; REVIEWS</figcaption>
+                  <p>feedback, ratings &amp; reviews</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="howitwork" class="container-lg how-works py-5 open-sans">
+        <h2 class="text-center pb-4">HOW IT WORKS</h2>
+        <p class="text-center">Simply search by your desired location, service, time, date or price range &amp; book an appointment on the go!<br>Making your life easier, since forever~ </p>
+        <div class="row text-center mx-auto">
+          <div class="col-sm-4 p-3">
+            <div class="card">
+              <div class="position-relative">
+                <img width="400" height="288" data-src="http://www.salontoday.pk/site3_assets/img/iphone_with_download.png" class="img-fluid lazyloaded" src="http://www.salontoday.pk/site3_assets/img/iphone_with_download.png">
+                <div class="px-3 pb-3 caption position-absolute bottom-0">01</div>
+              </div>
+              <div class="card-body p-2">
+                <div class="card-title">Download &amp; Install</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 p-3">
+            <div class="card">
+              <div class="position-relative">
+                <img width="400" height="288" data-src="http://www.salontoday.pk/site3_assets/img/date_picker.jpg" class="img-fluid lazyloaded" src="http://www.salontoday.pk/site3_assets/img/date_picker.jpg">
+                <div class="px-3 pb-3 caption position-absolute bottom-0">02</div>
+              </div>
+              <div class="card-body p-2">
+                <div class="card-title">Set the time, Book &amp; YOU ARE DONE</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 p-3">
+            <div class="card">
+              <div class="position-relative">
+                <img width="400" height="288" data-src="http://www.salontoday.pk/site3_assets/img/rating.png" class="img-fluid lazyloaded" src="http://www.salontoday.pk/site3_assets/img/rating.png">
+                <div class="px-3 pb-3 caption position-absolute bottom-0">03</div>
+              </div>
+              <div class="card-body p-2">
+                <div class="card-title">Rate Our Services</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact" class="footer border-top bg-white pt-2">
+        <div class="container">
+
+            <div class="row text-center">
+                
+                <div class="col-md-4 py-4 text-md-start border-bottom border-light ">
+                    <h5 class="px-3 fw-bolder">SalonToday</h5>
+                    <nav class="navbar navbar-expand-lg navbar-light text-center myownnav">
+                        <ul class="navbar-nav nav flex-column" id="menu-footer-menu-new">
+                            <li  class="nav-item px-2 my-2 "  >
+                                <a class="nav-link text-center " href="#contact">Contact US</a>
+                            </li>
+                            <ul class="navbar-nav nav flex-column" id="menu-footer-menu-new">
+                                <li  class="nav-item px-2 my-2"  >
+                                    <a class="nav-link" href="#about">ABOUT US</a>
+                                </li>
+
+                </nav>
+                </div>
+
+                <div class="col-md-4 py-4 border-bottom border-light">
+                    <h5 class="fw-bolder">Get SalonToday On The Go</h5>
+                    <p>Visit App Store and Google Play to download SalonToday official app:</p>
+          <div>
+            <a href="https://apps.apple.com/us/app/salontoday-book-salons-online/id1465862904" class="app-download-button mr-lg-3 pt-2" target="_blank">
+              <img width="150px" alt="SalonToday on AppStore" data-src="http://www.salontoday.pk/site3_assets/img/download-on-the-app-store.svg" class=" ls-is-cached lazyloaded" src="http://www.salontoday.pk/site3_assets/img/download-on-the-app-store.svg">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.salontoday.pk" class="app-download-button pt-2" target="_blank" width="100px">
+              <img width="150px" alt="SalonToday on PlayStore" data-src="http://www.salontoday.pk/site3_assets/img/get-it-on-google-play.svg" class=" ls-is-cached lazyloaded" src="http://www.salontoday.pk/site3_assets/img/get-it-on-google-play.svg">
+            </a>
+          </div>
+            
+       
+                </div>
+                <div class="col-md-4 py-4 border-bottom  text-md-start border-bottom border-light border-light ">
+                    <h5 class=" px-3 fw-bolder">Connect with SalonToday</h5>
+                    <nav class="navbar navbar-expand-lg navbar-light text-center myownnav">
+                        <ul class="navbar-nav nav flex-column" id="menu-footer-menu-new">
+                            <li  class="nav-item  "  >
+                                <a class="nav-link text-center px-5" href="tel:+92 332 531 44 47">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                  </svg>+92 332 531 44 47</a>
+                                
+                              </li>
+                           
+                            <ul class="navbar-nav nav flex-column" id="menu-footer-menu-new">
+                                <li  class="nav-item "  >
+                                    <a class="nav-link px-5" href="tel:+92 51 8481658">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                      </svg>+92 51 8481658</a>
+                                </li>
+                                <ul class="navbar-nav nav flex-column" id="menu-footer-menu-new">
+                                    <li  class="nav-item"  >
+                                        <a class="nav-link px-5" href="mailto:info@salontoday.pk">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                          </svg>
+                                          info@salontoday.pk</a>
+                                    </li>
+        
+                </nav>
+                </div>
+              
+                <div class="container-fluid text-center py-3 bg-light border-top">© Copyright 2021 All Rights Reserved by Salontoday
+                    | Developed by <a href="https://whizpool.com/">Whizpool</a></div>
+                 
+                   </footer>      
+</div>
+</body>
